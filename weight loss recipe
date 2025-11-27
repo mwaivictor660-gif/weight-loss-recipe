@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 Dinners to Lose Weight in 30 Days</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f7f7f7;
+        color: #222;
+    }
+    header {
+        background: #141414;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    header h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    header p {
+        font-size: 20px;
+        opacity: 0.9;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 30px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    .cta-btn {
+        display: block;
+        background: #ff3b30;
+        color: white;
+        text-align: center;
+        padding: 18px;
+        border-radius: 10px;
+        font-size: 22px;
+        text-decoration: none;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    .cta-btn:hover {
+        background: #d52720;
+    }
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 15px;
+        color: #333;
+        text-align: center;
+    }
+    ul {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .price-box {
+        text-align: center;
+        margin-top: 30px;
+        padding: 25px;
+        background: #fafafa;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+    }
+    .price-box h2 {
+        font-size: 36px;
+        margin: 10px 0;
+        color: #ff3b30;
+    }
+    .highlight {
+        background: #fff8d6;
+        padding: 10px;
+        border-left: 4px solid #ffb300;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>30 Dinners to Lose Weight in 30 Days</h1>
+    <p>Lose weight without starving — delicious, affordable, high-protein meals.</p>
+</header>
+
+<div class="container">
+
+    <div class="highlight">
+        This cookbook was designed for real people who want real results — fast, affordable, and extremely easy to follow.
+    </div>
+
+    <h2 class="section-title">Why This Cookbook Works</h2>
+    <ul>
+        <li>🔥 High-protein, fat-burning meals designed for steady weight loss</li>
+        <li>⚡ Zero complicated ingredients — everything available locally</li>
+        <li>⏳ Every recipe takes 15–20 minutes to prepare</li>
+        <li>🍽 Perfect for beginners or busy people who want simple meals</li>
+        <li>💪 Helps reduce bloating, cravings, and late-night hunger</li>
+        <li>📉 Proven weight-loss structure that keeps you full while cutting calories</li>
+    </ul>
+
+    <h2 class="section-title">What You Will Find Inside</h2>
+    <ul>
+        <li>✔ 30 fat-burning dinner recipes</li>
+        <li>✔ Exact calories & protein for every meal</li>
+        <li>✔ Simple step-by-step instructions</li>
+        <li>✔ Affordable ingredients anyone can find</li>
+        <li>✔ Week-by-week weight-loss structure</li>
+    </ul>
+
+    <div class="price-box">
+        <p>Instant Digital Download</p>
+        <h2>$11.99</h2>
+        <a class="cta-btn" href="https://instaebooks.gumroad.com/l/30DinnerstoLoseWeightin30Days?a=96709779">Get Your Cookbook Now</a>
+    </div>
+
+    <h2 class="section-title">Why Thousands Love This System</h2>
+    <ul>
+        <li>⭐ Saves time — all meals take under 20 minutes</li>
+        <li>⭐ No starving or strict dieting</li>
+        <li>⭐ Meals taste amazing and keep you full</li>
+        <li>⭐ Designed to help you lose weight even if you’ve failed before</li>
+    </ul>
+
+    <a class="cta-btn" href="https://instaebooks.gumroad.com/l/30DinnerstoLoseWeightin30Days?a=96709779">
+        Download the 30-Day Weight-Loss Cookbook
+    </a>
+
+</div>
+
+</body>
+</html>
