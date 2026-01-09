@@ -1,138 +1,768 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>30 Dinners to Lose Weight in 30 Days</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f7f7f7;
-        color: #222;
-    }
-    header {
-        background: #141414;
-        color: white;
-        padding: 40px 20px;
-        text-align: center;
-    }
-    header h1 {
-        font-size: 38px;
-        margin-bottom: 10px;
-    }
-    header p {
-        font-size: 20px;
-        opacity: 0.9;
-    }
-    .container {
-        width: 90%;
-        max-width: 900px;
-        margin: 30px auto;
-        background: white;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    }
-    .cta-btn {
-        display: block;
-        background: #ff3b30;
-        color: white;
-        text-align: center;
-        padding: 18px;
-        border-radius: 10px;
-        font-size: 22px;
-        text-decoration: none;
-        margin-top: 25px;
-        font-weight: bold;
-    }
-    .cta-btn:hover {
-        background: #d52720;
-    }
-    .section-title {
-        font-size: 28px;
-        margin-bottom: 15px;
-        color: #333;
-        text-align: center;
-    }
-    ul {
-        font-size: 18px;
-        line-height: 1.8;
-    }
-    .price-box {
-        text-align: center;
-        margin-top: 30px;
-        padding: 25px;
-        background: #fafafa;
-        border-radius: 12px;
-        border: 1px solid #ddd;
-    }
-    .price-box h2 {
-        font-size: 36px;
-        margin: 10px 0;
-        color: #ff3b30;
-    }
-    .highlight {
-        background: #fff8d6;
-        padding: 10px;
-        border-left: 4px solid #ffb300;
-        margin-bottom: 20px;
-        font-size: 18px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keto Wellness - Transform Your Health Naturally</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f7f3;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            text-align: center;
+        }
+        
+        .header-content {
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #5a9367;
+        }
+        
+        .logo i {
+            font-size: 28px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            background: linear-gradient(135deg, rgba(90, 147, 103, 0.1) 0%, rgba(249, 247, 243, 1) 100%);
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        
+        .hero-text {
+            flex: 1;
+        }
+        
+        .hero-image {
+            flex: 1;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s;
+        }
+        
+        .hero-image img:hover {
+            transform: scale(1.03);
+        }
+        
+        h1 {
+            font-size: 48px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .highlight {
+            color: #5a9367;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        .benefits-list {
+            margin: 25px 0;
+            list-style: none;
+        }
+        
+        .benefits-list li {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .benefits-list i {
+            color: #5a9367;
+            font-size: 18px;
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background-color: #e67e22;
+            color: white;
+            padding: 18px 45px;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .cta-button:hover {
+            background-color: #d35400;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(230, 126, 34, 0.4);
+        }
+        
+        .cta-button:active {
+            transform: translateY(1px);
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        
+        .feature-card {
+            background-color: #f9f7f3;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 48px;
+            color: #5a9367;
+            margin-bottom: 20px;
+        }
+        
+        .feature-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background-color: #f0f7f1;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #5a9367;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .author-info h4 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .author-info p {
+            color: #777;
+            font-size: 14px;
+        }
+        
+        /* Recipe Images Section */
+        .recipe-images {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .recipe-image {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            height: 250px;
+        }
+        
+        .recipe-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .recipe-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* Guarantee Section */
+        .guarantee {
+            padding: 60px 0;
+            background-color: #f0f7f1;
+            text-align: center;
+        }
+        
+        .guarantee-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .guarantee-badge {
+            background-color: #e67e22;
+            color: white;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .guarantee-badge span {
+            font-size: 36px;
+            font-weight: 900;
+        }
+        
+        /* Final CTA Section */
+        .final-cta {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #5a9367 0%, #3a6b47 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .final-cta h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .final-cta p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            background-color: #f9f7f3;
+        }
+        
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .faq-question {
+            background-color: white;
+            padding: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            background-color: #f0f7f1;
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-answer.active {
+            padding: 20px;
+            max-height: 300px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #5a9367;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: #5a9367;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 14px;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            h1 {
+                font-size: 40px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            .subtitle {
+                font-size: 18px;
+            }
+            
+            .section-title {
+                font-size: 30px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero, .features, .testimonials, .recipe-images, .final-cta, .faq {
+                padding: 60px 0;
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>Keto Wellness</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<header>
-    <h1>30 Dinners to Lose Weight in 30 Days</h1>
-    <p>Lose weight without starving — delicious, affordable, high-protein meals.</p>
-</header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Transform Your Health with <span class="highlight">Keto Living</span></h1>
+                    <p class="subtitle">Discover how the keto lifestyle can help you achieve better health, more energy, and sustainable weight management naturally</p>
+                    
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> Scientifically proven health benefits</li>
+                        <li><i class="fas fa-check-circle"></i> Delicious, satisfying meals that keep you full</li>
+                        <li><i class="fas fa-check-circle"></i> Simple approach anyone can follow</li>
+                        <li><i class="fas fa-check-circle"></i> Transform your relationship with food</li>
+                    </ul>
+                    
+                    <a href="https://www.digistore24.com/redir/292043/wizz8079/" class="cta-button" target="_blank">Click Here to See More →</a>
+                    
+                    <p style="margin-top: 15px; font-size: 14px; color: #777;">Join 50,000+ people who transformed their health with keto</p>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="https://kalynskitchen.com/wp-content/uploads/2023/01/1-1200-Keto-Crack-Chicken-Bake.jpg" alt="Keto Chicken Bake">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="container">
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What You'll Get with Keto</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="feature-title">Improved Cholesterol Levels</h3>
+                    <p>Keto can help increase HDL (good cholesterol) while lowering LDL (bad cholesterol) particles for better heart health.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="feature-title">Accelerated Fat Burning</h3>
+                    <p>Switch your body to fat-burning mode. Ketosis helps you burn stored fat for energy instead of carbohydrates.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 class="feature-title">Lower Blood Pressure</h3>
+                    <p>Many people experience normalized blood pressure on keto due to reduced inflammation and improved insulin sensitivity.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line-down"></i>
+                    </div>
+                    <h3 class="feature-title">Reduced Blood Sugar Levels</h3>
+                    <p>Keto naturally stabilizes blood sugar by minimizing carbohydrate intake, which can be especially beneficial for insulin resistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="highlight">
-        This cookbook was designed for real people who want real results — fast, affordable, and extremely easy to follow.
-    </div>
+    <!-- Recipe Images Section -->
+    <section class="recipe-images">
+        <div class="container">
+            <h2 class="section-title">Delicious Keto Recipes</h2>
+            <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; font-size: 18px;">
+                Discover mouthwatering keto meals that are both healthy and satisfying. These are just a few examples of what's possible with keto cooking.
+            </p>
+            
+            <div class="images-grid">
+                <div class="recipe-image">
+                    <img src="https://heretocook.com/wp-content/uploads/2020/02/Keto-chicken-thighs-recipe-with-mushroom-sauce.jpg" alt="Keto Chicken Thighs">
+                </div>
+                
+                <div class="recipe-image">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/keto-pork-chops-lead-68c97f89972a8.jpg?crop=1xw:1xh;center,top&resize=1400:*" alt="Keto Pork Chops">
+                </div>
+                
+                <div class="recipe-image">
+                    <img src="https://d104wv11b7o3gc.cloudfront.net/wp-content/uploads/2020/03/chicken-florentine-1-600x900.jpg" alt="Keto Chicken Florentine">
+                </div>
+                
+                <div class="recipe-image">
+                    <img src="https://www.eatwell101.com/wp-content/uploads/2018/09/keto-bread-recipe-8.jpg" alt="Keto Bread">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2 class="section-title">Why This Cookbook Works</h2>
-    <ul>
-        <li>🔥 High-protein, fat-burning meals designed for steady weight loss</li>
-        <li>⚡ Zero complicated ingredients — everything available locally</li>
-        <li>⏳ Every recipe takes 15–20 minutes to prepare</li>
-        <li>🍽 Perfect for beginners or busy people who want simple meals</li>
-        <li>💪 Helps reduce bloating, cravings, and late-night hunger</li>
-        <li>📉 Proven weight-loss structure that keeps you full while cutting calories</li>
-    </ul>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Community Says</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I've tried 4 different keto approaches, and this is by far the most effective. I lost 28 pounds in 3 months and my energy levels have never been better!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Lost 28 lbs on keto</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a diabetic, finding a sustainable way to manage my blood sugar was a struggle until I discovered keto. My A1C dropped from 8.2 to 5.6 in just 4 months!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <h4>Michael Roberts</h4>
+                            <p>Type 2 diabetic</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I was skeptical about keto at first, but these recipes proved me wrong. The food is delicious and I don't feel deprived at all. I've maintained my weight loss for over a year!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AL</div>
+                        <div class="author-info">
+                            <h4>Amanda Lee</h4>
+                            <p>Keto for 2 years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2 class="section-title">What You Will Find Inside</h2>
-    <ul>
-        <li>✔ 30 fat-burning dinner recipes</li>
-        <li>✔ Exact calories & protein for every meal</li>
-        <li>✔ Simple step-by-step instructions</li>
-        <li>✔ Affordable ingredients anyone can find</li>
-        <li>✔ Week-by-week weight-loss structure</li>
-    </ul>
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-content">
+                <div class="guarantee-badge">
+                    <span>30</span>
+                    DAYS
+                </div>
+                
+                <h2 style="font-size: 36px; margin-bottom: 20px;">Risk-Free Exploration</h2>
+                <p style="font-size: 18px; max-width: 700px; margin: 0 auto 30px;">We're so confident you'll love the keto lifestyle that we offer a satisfaction guarantee on our recommended resources. If you're not completely satisfied, simply reach out within 30 days for support.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="price-box">
-        <p>Instant Digital Download</p>
-        <h2>$11.99</h2>
-        <a class="cta-btn" href="https://instaebooks.gumroad.com/l/30DinnerstoLoseWeightin30Days?a=96709779">Get Your Cookbook Now</a>
-    </div>
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Transform Your Health?</h2>
+            <p>Discover how simple and delicious keto living can be with our curated collection of resources, meal plans, and expert guidance. Click below to explore our recommendations.</p>
+            
+            <a href="https://www.digistore24.com/redir/292043/wizz8079/" class="cta-button" target="_blank">Click Here to See More →</a>
+            
+            <p style="margin-top: 20px; font-size: 14px; opacity: 0.9;"><i class="fas fa-lock"></i> Secure access • Trusted resources</p>
+        </div>
+    </section>
 
-    <h2 class="section-title">Why Thousands Love This System</h2>
-    <ul>
-        <li>⭐ Saves time — all meals take under 20 minutes</li>
-        <li>⭐ No starving or strict dieting</li>
-        <li>⭐ Meals taste amazing and keep you full</li>
-        <li>⭐ Designed to help you lose weight even if you’ve failed before</li>
-    </ul>
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is keto suitable for beginners?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! The keto lifestyle can be adapted for anyone, regardless of experience level. With the right guidance and resources, beginners can successfully transition to keto and enjoy its benefits.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will I feel hungry on keto?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>One of the greatest benefits of keto is reduced hunger. The combination of healthy fats and adequate protein keeps you feeling satisfied for longer, reducing cravings and unnecessary snacking.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are keto ingredients expensive?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Not necessarily. While some specialty items can be pricier, many keto staples like eggs, chicken, vegetables, and healthy oils are affordable. We focus on simple recipes with accessible ingredients.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How quickly will I see results?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Many people notice increased energy and reduced cravings within the first week. More significant changes like weight loss and improved lab markers typically become noticeable within 2-4 weeks of consistent keto living.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <a class="cta-btn" href="https://instaebooks.gumroad.com/l/30DinnerstoLoseWeightin30Days?a=96709779">
-        Download the 30-Day Weight-Loss Cookbook
-    </a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Keto Wellness</h3>
+                    <p>Helping you achieve better health through sustainable keto living since 2018.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Important Notes</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Medical Disclaimer</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Keto Wellness. All rights reserved. This site provides educational information about the keto lifestyle. Always consult with a healthcare professional before making dietary changes. This site contains affiliate links.</p>
+            </div>
+        </div>
+    </footer>
 
-</div>
-
+    <script>
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Close other open FAQs
+                document.querySelectorAll('.faq-answer.active').forEach(activeAnswer => {
+                    if (activeAnswer !== answer) {
+                        activeAnswer.classList.remove('active');
+                        activeAnswer.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                        activeAnswer.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                    }
+                });
+                
+                // Toggle current FAQ
+                answer.classList.toggle('active');
+                if (answer.classList.contains('active')) {
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Track outbound link clicks
+        document.querySelectorAll('a[href*="digistore24.com"]').forEach(link => {
+            link.addEventListener('click', function() {
+                // In a real implementation, you might want to track this click with analytics
+                console.log('Outbound link clicked:', this.href);
+            });
+        });
+    </script>
 </body>
 </html>
